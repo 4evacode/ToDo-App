@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>To Do List App</title>
+</head>
+
+<body>
+    <h1>TO DO LIST</h1>
+
+    <div class="namebox">
+        <Input type="text" id="name" placeholder="Enter your name here" >
+    </div>
+
+     <header>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="What do you have to do?">
+            <input type="submit" value="Add Task" id="taskSubmit">
+        </form>
+     </header>
+
+     <main>
+        <section class="taskList">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <textarea style="resize: none;" class = "text" readonly>Open Account</textarea>
+                        <input type="text" class="text" value="Open Account" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+     </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
